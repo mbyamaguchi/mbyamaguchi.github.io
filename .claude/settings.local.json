@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm astro *)",
+      "Bash(pnpm install *)",
+      "PowerShell(cd \"c:\\\\work\\\\projects\\\\mbyamaguchi.github.io\"; $env:CI = \"true\"; pnpm install 2>&1 | Select-Object -Last 10)",
+      "Bash(rm -rf \"c:\\\\work\\\\projects\\\\mbyamaguchi.github.io\\\\node_modules\\\\mdx\" && cd \"c:\\\\work\\\\projects\\\\mbyamaguchi.github.io\" && pnpm install 2>&1 | tail -15)"
+    ]
+  }
+}
