@@ -19,5 +19,5 @@
     "remark-math": "^6.0.0",
     "sharp": "^0.34.5"
   },
-  "packageManager": "pnpm@10.33.3"
+  "packageManager": "pnpm@10.0.0"
 }
